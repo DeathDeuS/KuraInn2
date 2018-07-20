@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+
+header {
+    background-color: rgba(27, 99, 128, 0.9);
+    text-align: center;
+    font-family: 'Open Sans', "PT Sans Narrow";
+    height: 70px;
+    margin: 0 !important;
+    padding-left : 15px;
+    z-index : 100 !important;
+    /* margin-bottom : 2px !important; */
+    box-shadow : 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navtop {
+    vertical-align: middle;
+}
+
+header a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 0 1px rgba(0, 0, 0, 1);
+    font-size: 1.2em;
+    color: #d4d6d8;
+}
+#title{
+
+    width: 350px !important;
+    height: 180px;
+    overflow : hidden;
+    padding : 0 !important;
+    box-shadow : 5px 5px 5px rgba(0, 0, 0, 0.5);
+    /* margin-top: 10px; */
+}
+
+#title img {
+    /* transform: rotate(-10deg); */
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width : 100%;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0 1px rgba(255, 255, 255, 0);
+}
+
+li,
+.col,
+ul {
+    padding: 0px;
+}
+
+ul {
+    margin-top: 35px !important;
+    transform: translateY(-50%);
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    #title {
+        width: 260px !important;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    header {
+        height: 220px;
+        margin-top : 0;
+        
+        transform: rotate(0deg);
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+        header {
+            padding : 0;
+        }
+    #title {
+        width: 100% !important;
+        height : 100%;
+    }
+    #top, #title{
+        padding : 0;
+    }
+    .navtop li {
+        display: none;
+    }
+    .navtop ul {
+        text-align: center;
+    }
+    .icon {
+        display: block;
+        margin: auto;
+        font-size: 2em;
+        color : black;
+        margin-top : -72px;
+    }
+    .navtop.responsive {    
+        margin : auto;
+        margin-top : 100px;
+    }
+    
+    .navtop.responsive li {
+        display: block;
+        background-color : rgba(0, 0, 0, 0.4);
+    }
+
+    #top_ul{
+        margin : auto;
+        
+    }
+}
+
+
+

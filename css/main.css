@@ -1,0 +1,29 @@
+
+
+
+html, body{
+    margin:0;
+    padding:0;
+    /* width : 100%; */
+    overflow-x : hidden
+}
+
+body{
+    font-family : "Baskerville Old Face", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: rgba(194, 205, 233, 0.541); */
+}
+
+
+ul{
+    list-style: none;
+}
+
+section{
+    padding-top : 50px;
+    padding-bottom : 50px;
+}
+
+
+
+
+

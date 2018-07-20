@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,8 @@
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/presentation.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
  
 </head>
@@ -19,20 +21,149 @@
     <header class="row">
 
         <div id = "title" class="col-md-4 col-xs-12">
-            <img src="asset/logo.png" class="">
+            <img src="asset/kurainn400x260.png" class="">
         </div>
 
           <nav id="top" class="navtop col-md-8 col-xs-12" >
                       
                       <ul id="top_ul" class="row w-100">
-                          <a href="javascript:void(0);"  class="icon" onclick="myFunction1()">&#9776;</a>
-                          <li class="col"><a href="home.html">Accueil</a></li>
-                          <li class="col"><a href="room.html">Bungalows</a></li>
-                          <li class="col"><a href="activities">Activités</a></li>
-                          <li class="col"><a href="Mangareva">Mangareva</a></li>
+                          <a href="javascript:void(0);"  class="icon" onclick="myFunction1()" style="color : black;">&#9776;</a>
+                          <li class="col"><a href="index.html">Accueil</a></li>
+                          <li class="col"><a href="pages/bungalow/bungalow.html">Bungalows</a></li>
+                          <li class="col"><a href="pages/activites/activites.html">Activités</a></li>
+                          <li class="col"><a href="pages/mangareva/mangareva.html">Mangareva</a></li>
                           </ul>
           </nav> 
     </header>
+    <section id="slider_accueil" >
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <!--   <div class="carousel-caption d-none d-md-block slider_text_block">
+                        <h5>Bienvenue </h5>
+                        <p>Venez découvrir Mangareva, île mystérieuse dans l'archipel des Gambiers, berceau du catholicisme
+                            en Polynésie, perle du Pacifique </p>
+                    </div> -->
+                    <img class="d-block w-100" src="asset/mangareva/mangareva0 [1024x768].jpg" alt="bienvenue">
+
+
+                </div>
+
+                <div class="carousel-item">
+                    <!-- <div class="carousel-caption d-none d-md-block slider_text_block">
+                        <h5>Nos chambres</h5>
+                        <p>sont prêtes à vous a ccueillir que vous soyez seul ou en famille.</p>
+                    </div> -->
+                    <img class="d-block w-100" src="asset/mangareva/mangareva2 [1024x768].jpg" alt="bungalow">
+
+                </div>
+
+                <div class="carousel-item">
+                    <!-- <div class="carousel-caption d-none d-md-block slider_text_block">
+                        <h5>Les activités de l'île</h5>
+                        <p> Venez découvrir notre île avec ses vestiges de l''époque royale ou coloniale,nos motu,nos lagons
+                            et nos perles</p>
+                    </div> -->
+                    <img class="d-block w-100" src="asset/mangareva/mangareva10 [1024x768].jpg" alt="activites">
+
+                </div>
+
+                <div class="carousel-item">
+
+                   <!--  <div class="carousel-caption d-none d-md-block slider_text_block">
+                        <h5>Mangareva</h5>
+                        <p>...</p>
+                    </div> -->
+                    <img class="d-block w-100" src="asset/mangareva/mangareva12 [1024x768].jpg" alt="mangareva">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <section id="presentation" class=" text-center">
+        <div class="container">
+
+
+
+            <h2>Kura Inn pour une expérience inoubliable</h2>
+            <br>
+            <img class="img_p_home " src="asset/s1.jpg">
+            <br>
+            <br>
+            <article class="col-50">
+                <em>Présentation de la pension</em> : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis
+                felis fermentum, lacinia nulla sed, feugiat tellus. Nulla facilisi. Class aptent taciti sociosqu ad litora
+                torquent per conubia nostra, per inceptos himenaeos. Donec bibendum nibh eu magna semper, et placerat elit
+                pharetra. Fusce at pulvinar orci. Sed aliquam lectus eget lectus accumsan auctor. Nunc et pharetra neque,
+                nec tincidunt magna. Vestibulum sed hendrerit lectus. In leo libero, tincidunt nec cursus vitae, ultrices
+                in enim. Pellentesque sed lobortis dui. Aenean sed pellentesque purus, eu vulputate velit. Phasellus scelerisque
+                diam nec orci vehicula blandit nec nec tellus. Nullam faucibus pellentesque dolor a fermentum. Cras eu dictum
+                mauris, at eleifend orci.</article>
+            <hr>
+        </div>
+        <div class="parallax1 parallax"></div>
+        <div class="container">
+            <br>
+            <h2>Les membres de l'équipe vous souhaitent la bienvenue</h2>
+
+            <br>
+
+            <div id="presentation_picture_manager" class="row ">
+                <br>
+                <!-- photos gérants -->
+                <div class="presentation_card col-md-6 col-xs-12">
+                    <br>
+                    <img class="img-round shadowbox" src="asset/avatar_girl.jpg">
+                    <!-- <div class="img-round" style="background:url(asset/avatar_girl.jpg) no-repeat center;"></div> -->
+                    <h4>Mlle Beatrice Laureen</h4>
+                    <p>gérante de la pension</p>
+                </div>
+
+                <div class="presentation_card col-md-6 col-xs-12">
+                    <br>
+                    <img class=" img-round shadowbox" src="asset/avatar_boy.jpg">
+                    <!-- <div class="img-round" style="background:url(asset/avatar_boy.jpg) no-repeat center; "></div> -->
+                    <h4>M lorio</h4>
+                    <p>fille de la gérante</p>
+                </div>
+                <br>
+                <br>
+                <article class="col-50">
+                    <em>Présentation personnel </em>: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis
+                    felis fermentum, lacinia nulla sed, feugiat tellus. Nulla facilisi. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Donec bibendum nibh eu magna semper, et placerat
+                    elit pharetra. Fusce at pulvinar orci. Sed aliquam lectus eget lectus accumsan auctor. Nunc et pharetra
+                    neque, nec tincidunt magna. </article>
+            </div>
+
+            <hr>
+        </div>
+        <div class="parallax2 parallax"></div>
+        <br>
+        <h2>Mangareva, perle du pacifique</h2>
+
+        <br>
+        <!-- 16:9 aspect ratio -->
+        <div class="row">
+            <div class="col-md-10 col-xs-12 m-auto">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z63rJLapeAQ"></iframe>
+                </div>
+            </div>
+    </section>
 </body>
 <script>
     function myFunction1() {
