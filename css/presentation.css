@@ -31,13 +31,13 @@ h4{
 
 .parallax1{
     background : url("../asset/parallax3.jpg");
-    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.548), inset 0px -5px 5px rgba(0, 0, 0, 0.548);
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.548);
 
 }
 
 .parallax2{
     background : url("../asset/parallax2.jpg");
-    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.548), inset 0px -5px 5px rgba(0, 0, 0, 0.548);
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.548);
   
 }
 
