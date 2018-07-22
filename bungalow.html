@@ -6,24 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bungalow</title>
-    <script src="../../js/jquery.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="../../css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../../css/main.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link href="css/shCore.css" rel="stylesheet" type="text/css" />
     <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/header.css" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="../../css/bungalow.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bungalow.css" />
 
-    <!-- <link rel="stylesheet" href="../../css/demo.css" type="text/css" media="screen" /> -->
-    <link rel="stylesheet" href="../../css/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <section id="bungalow1">
 
-        <div class="container">
-            <div class="row">
+    <!-------------- HEADER -------------->
+    <header class="row">
+
+            <div id = "title" class="col-md-4 col-xs-12">
+                <img src="asset/kurainn400x260.png" class="">
+            </div>
+    
+              <nav id="top" class="navtop col-md-8 col-xs-12" >
+                          
+                          <ul id="top_ul" class="row w-100">
+                              <a href="javascript:void(0);"  class="icon col" onclick="myFunction1()" style="color : black;">&#9776;</a>
+                              <li class="col"><a href="index.html">Accueil</a></li>
+                              <li class="col"><a href="bungalow.html" class="navtopactive">Bungalows</a></li>
+                              <li class="col"><a href="activites.html">Activités</a></li>
+                              <li class="col"><a href="mangareva.html">Mangareva</a></li>
+                              </ul>
+              </nav> 
+        </header>
+
+        <!-------------- bouton contact fixed -------------->
+
+    <div id="button_aside">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100010718013022&ref=br_rs">
+                    <i class="fa fa-facebook-official"></i>
+                </a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-envelope"></i>
+                    <ul>
+                        <li>shanaboosie@hotmail.fr</li>
+                    </ul>
+                </a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-phone"></i>
+                    <ul>
+                        <li> 87730649</li>
+                    </ul>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <section id="bungalow1" class="bungalow">
+
+        <div class="container ">
+            <div class="row p-0">
                 <h2 class="col-10">Bungalow 1</h2>
                 <div class="col-10 m-auto" style="height: 400px;">
 
@@ -31,22 +79,22 @@
                     <div id="slider" class="flexslider">
                         <ul class="slides">
                             <li style="">
-                                <img src="../../asset/bungalow/bungalow1.jpg" class="img_slider" />
+                                <img src="asset/bungalow/bungalow1.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/lit1.jpg" class="img_slider" />
+                                <img src="asset/bungalow/lit1.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/cuisine1.jpg" class="img_slider" />
+                                <img src="asset/bungalow/cuisine1.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/salon1.jpg" class="img_slider" />
+                                <img src="asset/bungalow/salon1.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/wc1.jpg" class="img_slider" />
+                                <img src="asset/bungalow/wc1.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/terrasse1.jpg" class="img_slider" />
+                                <img src="asset/bungalow/terrasse1.jpg" class="img_slider" />
                             </li>
                             <!-- items mirrored twice, total of 12 -->
                         </ul>
@@ -54,22 +102,22 @@
                     <div id="carousel" class="flexslider">
                         <ul class="slides">
                             <li>
-                                <img src="../../asset/bungalow/bungalow1.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/bungalow1.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/lit1.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/lit1.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/cuisine1.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/cuisine1.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/salon1.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/salon1.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/wc1.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/wc1.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/terrasse1.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/terrasse1.jpg" class="thumbnail" />
                             </li>
                             <!-- items mirrored twice, total of 12 -->
                         </ul>
@@ -118,7 +166,7 @@
 
 
 
-    <section id="bungalow2">
+    <section id="bungalow2" class="bungalow">
 
         <div class="container">
             <div class="row">
@@ -129,22 +177,22 @@
                     <div id="slider2" class="flexslider">
                         <ul class="slides">
                             <li style="">
-                                <img src="../../asset/bungalow/bungalow2.jpg" class="img_slider" />
+                                <img src="asset/bungalow/bungalow2.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/lit2.jpg" class="img_slider" />
+                                <img src="asset/bungalow/lit2.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/cuisine2.jpg" class="img_slider" />
+                                <img src="asset/bungalow/cuisine2.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/salon2.jpg" class="img_slider" />
+                                <img src="asset/bungalow/salon2.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/wc2.jpg" class="img_slider" />
+                                <img src="asset/bungalow/wc2.jpg" class="img_slider" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/terrasse2.jpg" class="img_slider" />
+                                <img src="asset/bungalow/terrasse2.jpg" class="img_slider" />
                             </li>
                             <!-- items mirrored twice, total of 12 -->
                         </ul>
@@ -152,22 +200,22 @@
                     <div id="carousel2" class="flexslider">
                         <ul class="slides">
                             <li>
-                                <img src="../../asset/bungalow/bungalow2.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/bungalow2.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/lit2.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/lit2.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/cuisine2.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/cuisine2.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/salon2.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/salon2.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/wc2.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/wc2.jpg" class="thumbnail" />
                             </li>
                             <li>
-                                <img src="../../asset/bungalow/terrasse2.jpg" class="thumbnail" />
+                                <img src="asset/bungalow/terrasse2.jpg" class="thumbnail" />
                             </li>
                             <!-- items mirrored twice, total of 12 -->
                         </ul>
@@ -214,6 +262,21 @@
 
     </section>
 
+    <script>
+            function myFunction1() {
+                var x = document.getElementById("top");
+                if (x.className === "navtop col-md-8 col-xs-12") {
+                    x.className += " responsive";
+                    document.getElementById("top_ul").className = "w-100 m-auto";
+                    console.log(document.getElementById("top").className);
+                } else {
+                    x.className = "navtop col-md-8 col-xs-12";
+                    document.getElementById("top_ul").className = "row w-100 m-auto";
+                    console.log(document.getElementById("top").className);
+                }
+            }
+        </script>
+
 
     <!-- jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -222,7 +285,7 @@
     </script>
 
     <!-- FlexSlider -->
-    <script defer src="../../js/jquery.flexslider.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
 
     <script type="text/javascript">
         $(function () {
@@ -289,14 +352,14 @@
 
 
     <!-- Syntax Highlighter -->
-    <script type="text/javascript" src="../../js/shCore.js"></script>
-    <script type="text/javascript" src="../../js/shBrushXml.js"></script>
-    <script type="text/javascript" src="../../js/shBrushJScript.js"></script>
+    <script type="text/javascript" src="js/shCore.js"></script>
+    <script type="text/javascript" src="js/shBrushXml.js"></script>
+    <script type="text/javascript" src="js/shBrushJScript.js"></script>
 
     <!-- Optional FlexSlider Additions -->
-    <script src="../../js/jquery.easing.js"></script>
-    <script src="../../js/jquery.mousewheel.js"></script>
-    <script defer src="../../js/demo.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script defer src="js/demo.js"></script>
 </body>
 
 </html>

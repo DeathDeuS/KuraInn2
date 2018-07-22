@@ -24,6 +24,86 @@ section{
 }
 
 
+#button_aside{
+    position : fixed;
+    left : 0px;
+    top : 45%;
+    width : 40px;
+    /* background-color: rgba(255, 255, 255, 0.521); */
+    padding-left : 5px;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+#button_aside ul, #button_asideli{
+    margin : 0;
+    padding : 0;
+}
+
+#button_aside li{
+    height : 30px;
+    margin-bottom : 2px;
+}
+
+#button_aside ul li ul{
+    display : none;
+    text-align: left;
+}
+
+#button_aside ul li ul li{
+    background-color: rgba(194, 205, 233, 0.877);
+    display: inline-block;
+    padding : 2px;
+    border-radius: 5px;
+    border : 1px solid black;
+    color : black;
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
+
+
+#button_aside a{
+    display: block;
+}
+
+
+#button_aside .fa{
+    font-size : 30px;
+    color : rgb(76, 74, 97);
+}
+
+#button_aside .fa-facebook-official:hover{    
+    font-size : 32px;
+    color : rgb(0, 31, 97);
+}
+
+
+
+#button_aside .fa-envelope:hover{  
+    font-size : 32px;
+    color :  rgb(179, 32, 13);
+}
+
+#button_aside .fa-phone:hover{  
+    font-size : 32px;
+    color :  rgb(63, 151, 3);
+}
+
+#button_aside li:hover ul{
+    display : block;
+    
+    position: relative;
+    left : 40px;
+    top : -32px;
+    text-align : left;
+    width : auto;
+}
+
+
+
+
 
 
 

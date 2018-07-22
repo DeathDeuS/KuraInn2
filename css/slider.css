@@ -9,6 +9,7 @@
 
 #slider_accueil img{
     top : -200px;
+    z-index: -1;
 }
 
 

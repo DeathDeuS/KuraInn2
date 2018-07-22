@@ -40,3 +40,18 @@ img{
     }
     
 }
+
+@media screen and (max-width: 650px) {
+
+    .phone-100{
+        width : 100%;
+        margin : auto;
+        padding : 0;
+    }
+
+    img{
+        background-color: #000;
+        margin: auto;
+    }
+    
+}
