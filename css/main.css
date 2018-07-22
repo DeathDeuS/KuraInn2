@@ -91,7 +91,7 @@ section{
     color :  rgb(63, 151, 3);
 }
 
-#button_aside li:hover ul{
+#button_aside li:hover ul, #button_aside li:active ul{
     display : block;
     
     position: relative;
