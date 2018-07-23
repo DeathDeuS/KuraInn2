@@ -2,14 +2,13 @@
 #slider_accueil, #carouselExampleIndicators, .carousel-inner, .carousel-item active, #slider_accueil img {
     margin : 0px !important;
     padding : 0px !important;
-    z-index: -1;
     
     box-shadow : inset 0px -5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #slider_accueil img{
     top : -200px;
-    z-index: -1;
+    z-index: 1;
 }
 
 
