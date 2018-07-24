@@ -69,9 +69,7 @@ h4{
 
     .parallax{
         height : 500px;
-        /* background-size: auto 1000px; */
-        background-attachment: unset !important;
-    background-position: center top !important;
+        background-size: auto 1000px;
     }
     
 
