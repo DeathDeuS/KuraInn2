@@ -203,9 +203,11 @@
     <!---------------------------- contact form         ---------------------------->
     <form action="https://formspree.io/christianroussel89@gmail.com"
     method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto" title =" mail" value = "christianroussel89@gmail.com"> 
-  <input type="submit" value="Send">
+  <label for="c_name"l>Votre nom</label> : <br/><input type="text" name="name" id="c_name" value="Votre nom"><br/>
+  <label for="c_mail">Votre adresse mail</label> : <br/><input type="email" name="mail_visiteur" id="c_mail" value = "Votre mail"> <br/>
+  <label for="c_message">Mesage</label> : <br/><textarea  name="message" id="c_message" > Votre message... </textarea><br/>
+    <input type="date" />
+    <input type="submit" value="Send">
 </form>
 
 
