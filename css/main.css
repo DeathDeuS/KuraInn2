@@ -101,7 +101,50 @@ section{
     width : auto;
 }
 
+footer{
+    background-color: rgba(27, 99, 128, 0.9);
+    margin : 0;
+    width : 100% !important;
+    max-width: 100% !important;
+    text-align: center;
+    padding : 25px;
+    color : white;
+    font-size: 1.2em;
+}
 
+footer .contact_footer a{
+    color : white;
+    text-decoration: underline;
+}
+footer .contact_footer a:hover{
+    color : white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer hr{
+    color : white;
+}
+
+#footer_contactform:hover{
+    background-color : rgba(0, 0, 0, 0.13);
+}
+
+
+footer h4{
+ margin : 25px auto;
+ font-size: 1.8em;
+ 
+
+}
+
+footer .modal-body{
+     width : 90%; 
+    margin : 10px auto;
+    padding : 25px;
+    border : 1px solid white;
+    text-align: left;
+}
 
 
 
