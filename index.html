@@ -19,6 +19,18 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src =
+                'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.1&appId=516426642088838&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <!-------------- HEADER -------------->
     <header class="row">
@@ -94,7 +106,7 @@
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                      <div class="carousel-caption d-none d-md-block slider_text_block">
+                    <div class="carousel-caption d-none d-md-block slider_text_block">
                         <h5>Bienvenue </h5>
                         <p>Venez découvrir Mangareva, île mystérieuse dans l'archipel des Gambiers, berceau du catholicisme
                             en Polynésie et perle du Pacifique.</p>
@@ -116,8 +128,8 @@
                 <div class="carousel-item">
                     <div class="carousel-caption d-none d-md-block slider_text_block">
                         <h5>Venez découvrir ...</h5>
-                        <p> notre île avec ses vestiges de l'époque royale et coloniale ainsi que nos motu, nos lagons
-                            et nos perles.</p>
+                        <p> notre île avec ses vestiges de l'époque royale et coloniale ainsi que nos motu, nos lagons et nos
+                            perles.</p>
                     </div>
                     <img class="d-block w-100" src="asset/mangareva/mangareva10.jpg" alt="activites">
 
@@ -125,9 +137,9 @@
 
                 <div class="carousel-item">
 
-                     <div class="carousel-caption d-none d-md-block slider_text_block" style="background-color: rgba(0,0,0,0); border : none;">
+                    <div class="carousel-caption d-none d-md-block slider_text_block" style="background-color: rgba(0,0,0,0); border : none;">
                         <h5 style="font-size : 75px; margin : auto; display : inline-block; text-shadow : 2px 2px 2px black;">Ena kotou !</h5>
-                        
+
                     </div>
                     <img class="d-block w-100" src="asset/mangareva/mangareva12.JPG" alt="mangareva">
 
@@ -211,24 +223,38 @@
             </div>
     </section>
     <!-- <a id="foxyform_embed_link_189024" href="http://fr.foxyform.com/">foxyform</a> -->
+    <div class="fb-page" data-href="https://www.facebook.com/search/top/?q=kura%20inn%20mangareva" data-tabs="timeline" data-width="450" data-small-header="true"
+        data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+        <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/facebook">Facebook</a>
+        </blockquote>
+    </div>
 
 
 
-
-<!---------------------------- FOOTER        ---------------------------->
-    <footer class="container" >
+    <!---------------------------- FOOTER        ---------------------------->
+    <footer class="container">
         <div class="row">
-            <h4>Nous contacter</h4><br>
+            <h4>Nous contacter</h4>
+            <br>
         </div>
 
-        <hr align=center color="white" width="99%"><br>
+        <hr align=center color="white" width="99%">
+        <br>
         <div class="row">
-            <div class="col-md-5 col-xs-12 contact_footer"><br><br><br>
-                Tél. : +689 87 72 03 31
-                <br><br><br> Mail : raoulxcoralie@mail.pf
-                <br><br><br> Facebook :
+            <div class="col-md-5 col-xs-12 contact_footer">
+                <br>
+                <br>
+                <br> Tél. : +689 87 72 03 31
+                <br>
+                <br>
+                <br> Mail : raoulxcoralie@mail.pf
+                <br>
+                <br>
+                <br> Facebook :
                 <a href="https://www.facebook.com/profile.php?id=100010718013022&ref=br_rs">Kura Inn</a>
-                <br><br>
+                <br>
+                <br>
             </div>
 
             <div class="col-md-7 col-xs-12">
@@ -244,7 +270,7 @@
                             <label for="c_mail" class="col-form-label">Mail :</label>
                             <input class="form-control" type="email" name="mail_visiteur" id="c_mail" required></input>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="c_message" class="col-form-label">Message :</label>
                             <textarea class="form-control" name="message" id="c_message" rows="5" required></textarea>
