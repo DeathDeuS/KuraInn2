@@ -33,6 +33,11 @@ body{
     width : auto !important;
 }
 
+#slider_accueil h5{
+    text-shadow: 2px 1px 1px black;
+    font-size : 25px;
+}
+
 #mangareva article{
     padding : 40px;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bungalow</title>
+    <title>KuraInn Bungalows</title>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
@@ -59,18 +59,20 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#footer_contactform">
                     <i class="fa fa-envelope"></i>
+
                     <ul>
-                        <li>shanaboosie@hotmail.fr</li>
+                        <li>raoulxcoralie@mail.pf</li>
                     </ul>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="#footer_contactform">
                     <i class="fa fa-phone"></i>
                     <ul>
-                        <li> 87730649</li>
+                        <li>87720331
+                        </li>
                     </ul>
                 </a>
             </li>
@@ -284,6 +286,51 @@
 
     </section>
 
+    <!---------------------------- FOOTER        ---------------------------->
+    <footer class="container" >
+        <div class="row">
+            <h4>Nous contacter</h4><br>
+        </div>
+
+        <hr align=center color="white" width="99%"><br>
+        <div class="row">
+            <div class="col-md-5 col-xs-12 contact_footer"><br><br><br>
+                Tél. : +689 87 72 03 31
+                <br><br><br> Mail : raoulxcoralie@mail.pf
+                <br><br><br> Facebook :
+                <a href="https://www.facebook.com/profile.php?id=100010718013022&ref=br_rs">Kura Inn</a>
+                <br><br>
+            </div>
+
+            <div class="col-md-7 col-xs-12">
+
+                <!---------------------------- contact form         ---------------------------->
+                <div class="modal-body" id="footer_contactform">
+                    <form action="https://formspree.io/christianroussel89@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="c_name" class="col-form-label">Nom :</label>
+                            <input type="text" class="form-control" id="c_name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="c_mail" class="col-form-label">Mail :</label>
+                            <input class="form-control" type="email" name="mail_visiteur" id="c_mail" required></input>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="c_message" class="col-form-label">Message :</label>
+                            <textarea class="form-control" name="message" id="c_message" rows="5" required></textarea>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
 
     
 
